@@ -11,6 +11,7 @@ import chess.pieces.Bishop;
 import chess.pieces.King;
 import chess.pieces.Knight;
 import chess.pieces.Pawn;
+import chess.pieces.Queen;
 import chess.pieces.Rook;
 
 public class ChessMatch {
@@ -66,6 +67,7 @@ public class ChessMatch {
 		placeNewPiece(new Rook(board, Color.WHITE), 'a', 1);
 		placeNewPiece(new Knight(board, Color.WHITE), 'b', 1);
 		placeNewPiece(new Bishop(board, Color.WHITE), 'c', 1);
+		placeNewPiece(new Queen(board, Color.WHITE), 'd', 1);
         placeNewPiece(new King(board, Color.WHITE), 'e', 1);
         placeNewPiece(new Bishop(board, Color.WHITE), 'f', 1);
         placeNewPiece(new Knight(board, Color.WHITE), 'g', 1);
@@ -82,6 +84,7 @@ public class ChessMatch {
 		placeNewPiece(new Rook(board, Color.BLACK), 'a', 8);
 		placeNewPiece(new Knight(board, Color.BLACK), 'b', 8);
 		placeNewPiece(new Bishop(board, Color.BLACK), 'c', 8);
+		placeNewPiece(new Queen(board, Color.BLACK), 'd', 8);
         placeNewPiece(new King(board, Color.BLACK), 'e', 8);
         placeNewPiece(new Bishop(board, Color.BLACK), 'f', 8);
         placeNewPiece(new Knight(board, Color.BLACK), 'g', 8);
